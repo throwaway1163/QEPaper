@@ -1,0 +1,49 @@
+\documentclass[12pt]{report}
+
+\usepackage{researchPaper}
+
+\graphicspath{{images/}}
+
+\bibliography{QEPaper.bib}
+
+\begin{document}
+
+\title{#1}
+\lhead{Benjamin Ojeda} %Requires fancyhdr
+\rhead{#1} %Requires fancyhdr
+\author{#2}
+\date{}
+\maketitle
+
+
+%Arguments #1=image #2=location #3=width #4=caption
+\newcommand{\wrapfig}[4]
+{
+    \begin{wrapfigure}{#2}{#3\textwidth}
+        \vspace{-20pt}
+        \begin{center}
+            \includegraphics[width=#3\textwidth]{#1}
+        \end{center}
+        \vspace{-20pt}
+        \caption{#4}
+        \vspace{-10pt}
+    \end{wrapfigure}
+}
+
+%Arguments #1=image #2=location #3=width #4=caption
+\newcommand{\fig}[4]
+{
+    \begin{figure}[#2]
+        \includegraphics[scale=#3]{#1}
+        \caption{#4}
+    \end{figure}
+}
+
+\input{./Subsections/section1}
+
+\input{./Subsections/appendix}
+
+\nocite{*}
+\printbibliography
+
+\end{document}
