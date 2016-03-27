@@ -1,0 +1,29 @@
+\usepackage{graphicx} %Recomended, allows including images
+\usepackage[notes,backend=biber,autocite=footnote]{biblatex-chicago} %Chicago bibliography
+\usepackage[american]{babel} %Dependency for biber
+\usepackage{csquotes} %Dependency for biber
+\usepackage{fancyhdr} %Allows for specifying more complicated headers
+\usepackage[toc,page]{appendix} %Allows for a dedicated appendix
+\usepackage{wrapfig} %Allows text wrapping around figures
+\usepackage{setspace} %Optional, allows fine-tune space control
+\usepackage{geometry} %Optional, helps define document spacing
+%\usepackage{mathtools} %Recommended, helps in typesetting math
+%\usepackage{tikz} %Optional, allows specifying svg diagrams in latex
+%\usepackage{multicol} %Optional
+%\usepackage[backend=biber]{biblatex} %Default bibiliography style
+%\usepackage{pgfplots} %Optional, native plotting of simple graphs
+%\usepackage{tabu} %Optional, allows for crude native table support
+
+
+\pagestyle{fancy} %Necessary for fancyhdr
+\geometry{margin=1in} %Requires the geometry package
+
+
+%\usepackage{tabu}
+%\renewcommand{\arraystretch}{1.3} %Streches out tables
+
+\addbibresource{researchPaper.bib}
+
+\iffalse
+This style requires a very particular build process in order to generate the complete pdf. This requires multiple command line inputs and depends on several other texlive packages.  The default biblatex-chicago requires the project to first build by invoking biber (which I used in place of biblatex) on the main paper document with "biber paper" then "biber researchPaper".  This builds all of the bibliography fiels needed to build the main pdf using "pdflatex paper.tex"
+\fi
