@@ -61,4 +61,10 @@ Much of this increase came from the purchase of mortgage-backed securities and o
 
 --------------------------------------------------------------------------------------------------
 
+One important aspecct of Quantitative easing is that the greatest effects of the policy can only be felt if investors see a credible commitment on the part of the central bank to keep interest rates low, even if the economy recovers and the Taylor rule prescribes increased interest rates.\autocite[4]{krishnamurthy2011effects}
+The central bank could signal such a commitment through public statements, and more substantively, by purchasing large quantities of long-term assets during QE.\autocite[4]{krishnamurthy2011effects}
+
+The belief that purchasing longer-term debt can reduce the duration premium rests upon the assumption that certain investors prefer bonds of particular maturities, and that other investors function as arbiters to determine the duration risk associated with debt.\autocite[5]{krishnamurthy2011effects}
+\autocite[]{krishnamurthy2011effects}
+\autocite[]{krishnamurthy2011effects}
 \autocite[]{krishnamurthy2011effects}
