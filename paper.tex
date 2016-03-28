@@ -40,9 +40,37 @@
     \end{figure}
 }
 
-\input{./Subsections/section1}
+The financial crisis of 2007-8 pushed the traditional tools of monetary policy to their limits, forcing central banks across the world to adopt unconventional policies in their efforts to cope with the downturn.
+Prior the crisis the aim of monetary policy was low stable inflation. This policy of inflation targeting was relatively uncontroversial, central banks manipulated the interest rate on funds provided to banks, the impact of the changes on the broader was straightforward and predictable and could be reliably quantified.\autocite[271]{joyce2012quantitative}
+Most central banks adjusted these interest rates in response to a broad range of indicators, generally sticking to the principles laid out by the "Taylor Rules".\autocite[271]{joyce2012quantitative}
+The Taylor rule is a principle, first proposed by John B. Taylor in 1993, that aims to approximate the target federal funds rate.\autocite[232]{woodford2001taylor}
+The equation takes the form
+\begin{center}
+$i_t = 0.04 + 1.5(pi_t -0.02) + 0.5(y_t - \bar{y}_t)$
+\end{center}
+where $i_t$ represents the target federal funds rate, $\pi_t$ is the inflation rate measured by the GDP deflator, $y_t$ is the log of real GDP, and $\bar{y}_t$ is the potential output.\autocite[232]{woodford2001taylor}
+To elaborate briefly upon this equation, since the difference of two logs is the same as the logarithm of their division $0.5(y_t - \bar{y}_t)$ is equivalent to $0.5\mbox{log}(\frac{\mbox{GDP}}{\mbox{Potential Output}}$ which will be negative since GDP is always less than potential Output.
+In brief, the Fed will target a lower federal funds rate in times where the economy falls well bellow capacity.
+This rule has proven very reliable in predicting the Fed's target rate over the years,\autocite[232]{woodford2001taylor} but during the crisis of 2007-2008 the Taylor rule got pushed beyond its breaking point as the economy fell to the point were the equation actually prescribed \emph{negative} interest rates.
+However, market interest rates cannot be pushed beyond zero because at that point even cash offers better returns than interest-bearing assets.\autocite[272]{joyce2012quantitative}
+This has forced central banks to reach for more unconventional tools in order to stimulate the economy and provide liquidity.
+Chief amongst these unconventional tools has been Quantitative Easing, or QE, which has risen to prominence in the past few years as central banks across the world have adopted it to allow them to continue to exercise monetary policy in an environment of near-zero percent overnight interest rates.
 
-\input{./Subsections/appendix}
+The basic principle of QE is that even in a situation where the overnight rate - which is effectively risk less - is bound at zero, the central bank can still try to exercise monetary policy by manipulating interest rate spreads.\autocite[466]{blinder2010quantitative}
+Both longer-term and higher-risk debt command premiums, so at least in principle as long as the central bank can reduce these premiums, it could still increase aggregate demand even in a situation where the lower is at zero.\autocite[466]{blinder2010quantitative}
+
+On a whole, Quantitative Easing has proven to be a relatively successful policy.
+Although growth remains anemic across most of the developed world, and the recovery from the great recession has proven dissapointing, it is unreasonable to attribute these failures to monetary policy.
+After all QE was only ever intended as a substitute for more traditional monetary tools.
+The global economy is facing many deep structural problems which would have likely proven problematic even without the crisis precipated by the bursting US housing bubble in 2007.
+
+It is difficult to know how long central banks will continue to hold interest rates at zero precent
+
+\begin{appendices}
+
+\fig{CompositionOfFedBalanceSheet}{Composition of the Fed's Balance Sheet}{1}{\autocite[469]{blinder2010quantitative}}
+
+\end{appendices}
 
 \nocite{*}
 \printbibliography
