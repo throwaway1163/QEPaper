@@ -1,6 +1,6 @@
 <tag1><tag2><tagn> Body of the note, ought to be one sentence, no newline characters.\autocite[page]{source}
 
-Prior the financial crises of 2007 the aim of monetary policy was low stable inflation. This policy of inflation targeting was relatively uncontroversial, central banks manipulated the interest rate on funds provided to banks, the impact of the changes on the broader was straightforward and predictable and could be reliably quantified.\autocite[271]{joyce2012quantitative}
+Prior the crisis the aim of monetary policy was low stable inflation. This policy of inflation targeting was relatively uncontroversial, central banks manipulated the interest rate on funds provided to banks, the impact of the changes on the broader was straightforward and predictable and could be reliably quantified.\autocite[271]{joyce2012quantitative}
 Most central banks adjusted these interest rates in response to a broad range of indicators, generally sticking to the principles laid out by the "Taylor Rules".\autocite[271]{joyce2012quantitative}
 
 The economic orthodoxy prior to the financial crises was that monetary policy was a crude tool with which to promote financial stability, and as such it was better to avoid trying to predict where asset bubbles might be growing.\autocite[271]{joyce2012quantitative}
@@ -43,7 +43,7 @@ When Fed Chairman Ben Bernanke initiated the first round of QE he chose to refer
 Convention holds that the overninght interest rate - or federal funds rate - is a far more effective and reliable tool than QE.\autocite[465]{blinder2010quantitative}
 
 The basic principle of QE is that even in a situation where the overnight rate - which is effectively risk less - is bound at zero, the central bank can still try to exercise monetary policy by manipulating interest rate spreads.\autocite[466]{blinder2010quantitative}
-Both longer-term and higher-risk debt command interest premiums, so at least in principle as long as the central bank can reduce these premiums, it could still increase aggregate demand even in a situation where the lower bound is at zero.\autocite[466]{blinder2010quantitative}
+Both longer-term and higher-risk debt command interest premiums, so at least in principle as long as the central bank can reduce these premiums, it could still increase aggregate demand even in a situation where the lower is at zero.\autocite[466]{blinder2010quantitative}
 
 One basic QE strategy is for a central bank to acquire longterm government securities or more risky assets in lieu of the more traditional short-term securities.\autocite[466]{blinder2010quantitative}
 
