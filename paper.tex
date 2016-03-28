@@ -8,13 +8,18 @@
 
 \begin{document}
 
-\lhead{Benjamin Ojeda} %Requires fancyhdr
-\rhead{} %Requires fancyhdr
+%Arguments #1=title #2=authors
+\newcommand{\titlesection}[2]
+{
+    \title{#1}
+    \lhead{Benjamin Ojeda}
+    \rhead{#1}
+    \author{#2}
+    \date{2016-03-28}
+    \maketitle
+}
 
-\title{Quantitative Easing Report}
-\author{Benjamin Ojeda}
-\date{}
-\maketitle
+\titlesection{Quantitative Easing Reading Response}{Benjamin Ojeda}
 
 %Arguments #1=image #2=location #3=width #4=caption #5=citation
 \newcommand{\wrapfig}[5]
@@ -79,7 +84,7 @@ It is difficult to know how long central banks will continue to hold interest ra
 
 \begin{appendices}
 
-%\fig{CompositionOfFedBalanceSheet}{1.0}{Composition of the Fed's Balance Sheet}{\autocite[469]{blinder2010quantitative}}
+\fig{CompositionOfFedBalanceSheet}{1.0}{Composition of the Fed's Balance Sheet}{\autocite[469]{blinder2010quantitative}}
 
 \end{appendices}
 
