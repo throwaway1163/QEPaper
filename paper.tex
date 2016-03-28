@@ -16,28 +16,34 @@
 \date{}
 \maketitle
 
-
-%Arguments #1=image #2=location #3=width #4=caption
-\newcommand{\wrapfig}[4]
+%Arguments #1=image #2=location #3=width #4=caption #5=citation
+\newcommand{\wrapfig}[5]
 {
     \begin{wrapfigure}{#2}{#3\textwidth}
-        \vspace{-20pt}
-        \begin{center}
-            \includegraphics[width=#3\textwidth]{#1}
-        \end{center}
-        \vspace{-20pt}
-        \caption{#4}
-        \vspace{-10pt}
+        \label{fig:#1}
+        \vspace{-22pt}
+        \begin{tcolorbox}[left=1mm,right=1mm,top=1mm,bottom=1mm,colback=blue!6!white,boxrule=0mm,colframe=blue!75!black,arc=0pt,outer arc=0pt]
+            \centering
+            \includegraphics[width=\textwidth]{#1}
+            \vspace{-30pt}
+            \caption{#4\protect\footnotemark}
+            %\vspace{-18pt}
+        \end{tcolorbox}
+        \vspace{-22pt}
     \end{wrapfigure}
+    \footnotetext{#5}
 }
 
-%Arguments #1=image #2=location #3=width #4=caption
+%Arguments #1=image #2=width #3=caption #4=citation
 \newcommand{\fig}[4]
 {
-    \begin{figure}[#2]
-        \includegraphics[scale=#3]{#1}
-        \caption{#4}
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[scale=#2]{#1}
+        \caption{#3\footnotemark}
+        \label{fig:#1}
     \end{figure}
+    \footnotetext{#4}
 }
 
 The financial crisis of 2007-8 pushed the traditional tools of monetary policy to their limits, forcing central banks across the world to adopt unconventional policies in their efforts to cope with the downturn.
